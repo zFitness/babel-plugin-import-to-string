@@ -1,4 +1,11 @@
 {
-  "plugins": [["../../../src"]],
+  "plugins": [
+    [
+      "../../../src",
+      {
+        "ignoreImport": ["./otherRouter", "../pages/home/home.vue"]
+      }
+    ]
+  ],
   "presets": []
 }

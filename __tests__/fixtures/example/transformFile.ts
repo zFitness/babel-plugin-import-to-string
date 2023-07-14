@@ -1,10 +1,13 @@
-const otherRouter = "./otherRouter";
+import otherRouter from "./otherRouter";
+const Cmp = "./Cmp";
 /* -------------------------- 首页 -------------------------- */
 const index = "../pages/home/index.vue";
+const home = () => import("../pages/home/home.vue");
 const routes = [{
   path: "*",
   redirect: "/home",
-  menu: false
+  menu: false,
+  component: Cmp
 }, {
   path: "/index",
   name: "index",

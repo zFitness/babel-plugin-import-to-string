@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "import 路径转换为字符串",
   "repository": "zfitness/babel-plugin-import-to-string",
-  "author": "zfitcode@163.com <zfitcode@163.com>",
+  "author": "zfitness <zfitcode@163.com>",
   "main": "lib/index.js",
   "dependencies": {
     "@babel/runtime": "^7.10.5"
