@@ -2,6 +2,8 @@
 
 将 import 语句中的路径提取出来。
 
+[![NPM version](https://img.shields.io/npm/v/babel-plugin-import-to-string.svg?style=flat)](https://npmjs.org/package/babel-plugin-import-to-string)
+
 ----
 
 ## Example

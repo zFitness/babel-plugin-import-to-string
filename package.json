@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-import-to-string",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "import 路径转换为字符串",
   "repository": "zfitness/babel-plugin-import-to-string",
   "author": "zfitness <zfitcode@163.com>",
