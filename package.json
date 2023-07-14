@@ -1,0 +1,37 @@
+{
+  "name": "babel-plugin-import-to-string",
+  "version": "0.0.0",
+  "description": "import 路径转换为字符串",
+  "repository": "zfitness/babel-plugin-import-to-string",
+  "author": "zfitcode@163.com <zfitcode@163.com>",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.10.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/helper-plugin-utils": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/babel__helper-plugin-utils": "^7.10.0",
+    "@types/diff": "^5.0.2",
+    "diff": "^5.1.0",
+    "diff-print": "0.0.1",
+    "jest": "^26.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "build": "babel src -d lib -x .ts",
+    "test": "jest __tests__/index.js",
+    "test:watch": "npm run test -- --watch",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "import",
+    "babel",
+    "babel-plugin"
+  ]
+}
